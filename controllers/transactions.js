@@ -4,7 +4,7 @@ var transaction = require("../models/transaction"),
 module.exports = {
   index: function(req,res){
     //TODO create a static
-    transaction.find(req.params.blocksId && {block: req.params.blocksId})
+    transaction.find(req.params.blockId && {block: req.params.blockId})
       .exec(function(err, data){
         res.write(presenter(data));
         res.end();
