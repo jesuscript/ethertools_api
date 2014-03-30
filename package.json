@@ -8,8 +8,8 @@
   "dependencies": {
     "express": "~3.4.8",
     "underscore": "~1.6.0",
-    "fortune": "0.1.17",
-    "fortune-mongodb": "0.1.9",
+    "fortune": "git+ssh://git@github.com:kkudryavtsev/fortune.git",
+    "fortune-mongodb": "git+ssh://git@github.com:kkudryavtsev/fortune-mongodb.git",
     "mongoose": "3.8.8",
     "inflection": "~1.3.5"
   }
